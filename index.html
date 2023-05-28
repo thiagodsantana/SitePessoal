@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+ 
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="author" content="Thiago Darlei">
+      <meta name="email" content="thiago.darley@gmail.com">
+      <meta name="name" content="Thiago Darlei">
+      <meta name="type" content="Portifólio">
+      <meta name="title" content="Portifólio - Thiago Darlei">
+      <meta name="keywords" content="developer, software, desenvolvedor, analista, dev, tecnologia, analista sistemas, sistema, profissional, resume, cv, freelancer">
+      <title>Thiago Darlei - Developer</title>
+      <link rel="icon" href="images/favicon.png">
+	  
+	  <link rel="stylesheet" href="fonts/flaticon/flaticon.css">
+      <link rel="stylesheet" href="css/vendor/all.min.css">
+      <link rel="stylesheet" href="css/vendor/slick.min.css">
+      <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+      <link rel="stylesheet" href="css/custom/main.css">
+      <link rel="stylesheet" href="css/custom/index.css">	 
+	  
+	  <!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-BCHGEVWBVX"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-BCHGEVWBVX');
+		</script>
+   </head>
+   <body>
+      <a class="back2top-btn" href="#"><i class="fas fa-long-arrow-alt-up"></i></a>
+      <nav class="navbar-part">
+         <div class="container">
+            <div class="navbar-content">
+               <a class="navbar-logo" href="index.html"><img src="images/logo.png" alt="logo"></a><button class="navbar-toggle" type="button"><i class="fas fa-bars"></i></button>
+               <div class="navbar-slide">
+                  <a class="navbar-cross" href="#"><i class="fas fa-times"></i></a>
+                  <ul class="navbar-list">
+                     <li class="navbar-item active"><a class="navbar-link" href="index.html">Home</a></li>
+                     <li class="navbar-item"><a class="navbar-link" href="#resume-part">Resumo</a></li>
+					 <li class="navbar-item"><a class="navbar-link" href="#service-part">Serviços</a></li>
+					  <li class="navbar-item"><a class="navbar-link" href="#port-part">Portifólio</a></li>
+                     <li class="navbar-item"><a class="navbar-link" href="#contact-part">Contato</a></li>
+                  </ul>
+                  <div class="navbar-btn"><a class="btn btn-inline" target="_blank" href="https://wa.me/5579999234545"><i class="fas fa-code"></i><span>Quer falar comigo?</span></a></div>
+               </div>
+            </div>
+            </div>
+         </div>
+      </nav>
+      <section class="banner-part">
+         <div class="banner-bg">
+            <div class="container">
+               <img class="circle-shape" src="images/assets/circle.png" alt="circle"><img class="star-shape" src="images/assets/star.png" alt="star">
+               <div class="row">
+                  <div class="col-lg-6 col-md-6">
+                     <div class="banner-img"><img src="images/banner/hero.png" alt="hero"></div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                     <div class="banner-content">
+                        <ul class="banner-icon">
+                           <li><a class="icon icon-inline" href="https://www.facebook.com/ThiiagoSantana/"><i class="fab fa-facebook-f"></i></a></li>
+                           <li><a class="icon icon-inline" href="https://www.linkedin.com/in/thiagodarlei/"><i class="fab fa-linkedin-in"></i></a></li>
+                           <li><a class="icon icon-inline" href="https://instagram.com/thdsantana"><i class="fab fa-instagram"></i></a></li>						   
+                        </ul>
+                        <div class="banner-text">
+                           <span>Bem vindo!</span>
+                           <h1>Ao meu mundo dev.</h1>
+                           <p>Que tal tiramos seu projeto do papel? Consigo transformar café e linhas de código em seu produto final.</p>
+                        </div>
+                        <div class="banner-btn duel-btn"><a class="btn btn-inline" href="#resume-part"><i class="fas fa-arrows-alt"></i><span>Sobre mim</span></a><a class="btn btn-inline" href="#skills-part"><i class="fas fa-boxes"></i><span>Minhas habilidades</span></a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="resume-part" class="section resume-part">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="section-heading">
+                     <p>Meu <span>resumo</span></p>
+                     <h2>Algumas informações básicas sobre mim</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12">
+                  <ul class="resume-cate-btn">
+                     <li><button class="cate-btn active" onclick="filter('about-part')"><i class="fas fa-user"></i><span>Sobre mim</span></button></li>
+                     <li><button class="cate-btn" onclick="filter('exper-part')"><i class="fas fa-user-tie"></i><span>Experiência</span></button></li>
+                     <li><button class="cate-btn" onclick="filter('edu-part')"><i class="fas fa-user-graduate"></i><span>Educação</span></button></li>
+                     <li><button class="cate-btn" onclick="filter('refer-part')"><i class="fas fa-users"></i><span>Referência</span></button></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="about-part" class="section about-part cate-active">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-7">
+                  <div class="about-summery">
+                     <h3>Sou o Thiago Darlei</h3>
+                     <p>Sou um profissional que tenho um amplo conjunto de habilidades técnicas e com 10 anos de experiência no mundo de desenvolvimento de software. Capaz de realizar multi tarefas e manipular vários projetos. Antenado às últimas tendências e novas tecnologias, buscando aprender sempre novas habilidades, tendo capacidade de improvisar, solucionar problemas e assumir a responsabilidade.</p>
+                  </div>
+                  <div class="about-list">
+                     <ul>
+                        <li>
+                           <h6>Nascimento:</h6>
+                           <p>10 Outubro, 1988</p>
+                        </li>
+                        <li>
+                           <h6>Moro em:</h6>
+                           <p>Brasil, Aracaju/SE</p>
+                        </li>                       
+                     </ul>
+					 <ul>
+					  <li>
+                           <h6>Site:</h6>
+                           <p>www.thiagodarlei.com.br</p>
+                        </li>
+						 <li>
+                           <h6>Telefone:</h6>
+                           <p>(79) 99923-4545</p>
+                        </li>           
+					 </ul>
+                     
+                  </div>
+                  <div class="about-btn duel-btn">
+					<a class="btn btn-inline" target="_blank" href="https://www.linkedin.com/in/thiagodarlei/"><i class="fab fa-linkedin-in"></i><span>LinkedIn</span></a>
+					<a class="btn btn-inline" href="#contact-part"><i class="fas fa-headset"></i><span>Contato</span></a></div>
+               </div>
+               <div class="col-lg-5">
+                  <div class="about-img"><img src="images/banner/about.png" alt="about"></div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="section exper-part cate-active">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6 col-lg-6">
+                  <div class="resume-card">
+                     <div class="resume-content">
+                        <div class="resume-icon"><i class="fas fa-award"></i></div>
+                        <div class="resume-meta">
+                           <h4>Analista de Sistemas SR</h4>
+                           <h5>Banco Carrefour</h5>
+                           <h6>Jul 2022 - Atual</h6>
+                        </div>
+                     </div>
+                     <div class="resume-text">
+                        <p>
+                     Desenvolvimento de microserviços utilizando ASP .NET Core, Monitoramento de aplicações utilizando Dynatrace e Kibana e CI/CD utilizando Google Cloud.</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-md-6 col-lg-6">
+                  <div class="resume-card">
+                     <div class="resume-content">
+                        <div class="resume-icon"><i class="fas fa-award"></i></div>
+                        <div class="resume-meta">
+                           <h4>Software Developer SR</h4>
+                           <h5>Verity Group - Banco Carrefour</h5>
+                           <h6>Jan 2020 - Atual</h6>
+                        </div>
+                     </div>
+                     <div class="resume-text">
+                        <p>
+                     Desenvolvimento de microserviços utilizando ASP .NET Core, Monitoramento de aplicações utilizando Dynatrace e Kibana e CI/CD utilizando Jenkins/Jira.</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-md-6 col-lg-6">
+                  <div class="resume-card">
+                     <div class="resume-content">
+                        <div class="resume-icon"><i class="fas fa-award"></i></div>
+                        <div class="resume-meta">
+                           <h4>Software Developer PL</h4>
+                           <h5>Universidade Tiradentes</h5>
+                           <h6>Nov 2014 - Jan 2020</h6>
+                        </div>
+                     </div>
+                     <div class="resume-text">
+                        <p>Desenvolvimento de Software utilizando Delphi e ASP .NET C# e Oracle, Levantamento de Requisitos de Negócio e Integrações de sistemas.</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-md-6 col-lg-6">
+                  <div class="resume-card">
+                     <div class="resume-content">
+                        <div class="resume-icon"><i class="fas fa-award"></i></div>
+                        <div class="resume-meta">
+                           <h4>Software Developer JR</h4>
+                           <h5>Faculdade Pio Décimo</h5>
+                           <h6>Jan 2012 - Out 2014</h6>
+                        </div>
+                     </div>
+                     <div class="resume-text">
+                        <p>Desenvolvimento de Software utilizando Delphi e ASP .NET C# e SQL Server.</p>
+                     </div>
+                  </div>
+               </div>
+
+
+               <div class="col-md-6 col-lg-6">
+                  <div class="resume-card">
+                     <div class="resume-content">
+                        <div class="resume-icon"><i class="fas fa-award"></i></div>
+                        <div class="resume-meta">
+                           <h4>Software Developer JR</h4>
+                           <h5>Informatize Sistemas e Consultoria</h5>
+                           <h6>Dez 2009 - Ago 2011</h6>
+                        </div>
+                     </div>
+                     <div class="resume-text">
+                        <p>Desenvolvimento e Manutenção de Sistemas com a plataforma Delphi 2010 e Maker.</p>
+                     </div>
+                  </div>
+               </div>
+               
+               
+               
+            </div>               
+         </div>
+            </div>
+         </div>
+
+      </section>
+      <section class="section edu-part cate-active">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6 col-lg-6">
+                  <div class="resume-card">
+                     <div class="resume-content">
+                        <div class="resume-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="resume-meta">
+                           <h4>Pós Graduação em Engenharia de Software</h4>
+                           <h5>Estácio</h5>
+                           <h6>Jan 2022 - Dez 2024</h6>
+                        </div>
+                     </div>
+                     <div class="resume-text">
+                        <p></p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6 col-lg-6">
+                  <div class="resume-card">
+                     <div class="resume-content">
+                        <div class="resume-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="resume-meta">
+                           <h4>Bacharel em Sistemas de Informação</h4>
+                           <h5>Universidade Tiradentes</h5>
+                           <h6>Jan 2011 - Dez 2014</h6>
+                        </div>
+                     </div>
+                     <div class="resume-text">
+                        <p></p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6 col-lg-6">
+                  <div class="resume-card">
+                     <div class="resume-content">
+                        <div class="resume-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="resume-meta">
+                           <h4>Técnico em Programação de Sistemas</h4>
+                           <h5>Instituto Federal de Sergipe</h5>
+                           <h6>jan 2006 - Dez 2009</h6>
+                        </div>
+                     </div>
+                     <div class="resume-text">
+                        <p></p>
+                     </div>
+                  </div>
+               </div>               
+            </div>
+         </div>
+      </section>
+      <section class="section refer-part cate-active">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6">
+                  <div class="refer-card">
+                     <div class="refer-img"><img src="images/reference/01.jpg" alt="reference"></div>
+                     <div class="refer-content">
+                        <h4>Josefa Renilde</h4>
+                        <p>Minha mãe <span>Gestora da família</span></p>
+                        <ul class="refer-contact">
+                           
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="refer-card">
+                     <div class="refer-img"><img src="images/reference/02.jpg" alt="reference"></div>
+                     <div class="refer-content">
+                        <h4>Steven Paul Jobs</h4>
+                        <p>Co-fundador <span>Apple Inc</span></p>
+                        <ul class="refer-contact">
+                          
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="service-part" class="section service-part">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="section-heading">
+                     <p>Meus <span>serviços</span></p>
+                     <h2>Sou apaixonado por esses serviços.</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6 col-lg-4">
+                  <div class="service-card">
+                     <h3>01</h3>
+                     <span class="flaticon-seo"></span><i class="flaticon-seo"></i>
+                     <h4>Desenvolvimento de software</h4>
+                     <p>Projetamos seu software desde a análise/levantamento de requisitos, até a implantação do seu software de acordo com as suas necessidades ou da sua empresa. &nbsp;&nbsp;&nbsp;</p>    
+					<p></p>
+					<p>&nbsp;</p>					 
+                  </div>
+               </div>
+               <div class="col-md-6 col-lg-4">
+                  <div class="service-card">
+                     <h3>02</h3>
+                     <span class="flaticon-smartphone"></span><i class="flaticon-smartphone"></i>
+                     <h4>Desenvolvimento de Aplicativos</h4>
+                     <p>Projetaremos o seu aplicativo para que rode nas principais plataformas e que os usuários sintam-se satisfeitos de acordo com a usabilidade/funcionalidades.</p>
+                     <p></p>
+					 <p>&nbsp;</p>
+                  </div>
+               </div>
+               <div class="col-md-6 col-lg-4">
+                  <div class="service-card">
+                     <h3>03</h3>
+                     <span class="flaticon-computer"></span><i class="flaticon-computer"></i>
+                     <h4>Desenvolvimento de Sites com integrações</h4>
+                     <p>Projetamos o seu site institucional ou pessoal, fazendo integrações com meios de pagamento, bancos, redes sociais entre outros.</p>
+					 <p>&nbsp;</p>
+					 <p>&nbsp;</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12">
+                 
+               </div>
+            </div>
+         </div>
+      </section>
+      
+      <section id="port-part" class="section port-part">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="section-heading">
+                     <p>Meu <span>portifólio</span></p>
+                     <h2>Abaixo alguns dos meus projetos em destaque</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="port-slider">
+                     <div class="port-card">
+                        <div class="port-img"><img src="images/portfolio/01.jpg" alt="portfolio"></div>
+                        <div class="port-oly">
+                           <div class="port-btn"><a class="btn btn-inline" target="_blank" href="http://realizeformaturas.com/">Visualizar</a></div>
+                           <div class="port-text">
+                              <h6>Website - Realize Formaturas</h6>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="port-card">
+                        <div class="port-img"><img src="images/portfolio/02.jpg" alt="portfolio"></div>
+                        <div class="port-oly">
+                           <div class="port-btn"><a class="btn btn-inline" target="_blank" href="https://play.google.com/store/apps/details?id=br.com.sollus.app_local">Visualizar</a></div>
+                           <div class="port-text">
+                              <h6>Aplicativo AppLocal</h6>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="port-card">
+                        <div class="port-img"><img src="images/portfolio/03.png" alt="portfolio"></div>
+                        <div class="port-oly">
+                           <div class="port-btn"><a class="btn btn-inline" href="https://play.google.com/store/apps/details?id=com.suamotofacil.app">Visualizar</a></div>
+                           <div class="port-text">
+                              <h6>Aplicativo Motofácil</h6>
+                           </div>
+                        </div>
+                     </div>                  
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12">
+                 
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="skills-part" class="section skills-part">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="section-heading">
+                     <p>Minhas <span>Habilidades</span></p>
+                     <h2>Ferramentas e tecnologias que domino</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row skills-parent">
+			  <div class="col-6 col-sm-4 col-lg-2">
+                  <div class="skills-card">
+                     <div class="skills-img"><img src="images/skill/dotnet.png" alt="C#"></div>
+                     <div class="skills-name">
+                        <p>C#</p>
+                     </div>
+                  </div>
+               </div>
+			   <div class="col-6 col-sm-4 col-lg-2">
+                  <div class="skills-card">
+                     <div class="skills-img"><img src="images/skill/sqlserver.png" alt="SQL Server"></div>
+                     <div class="skills-name">
+                        <p>SQL Server</p>
+                     </div>
+                  </div>
+               </div>
+			   <div class="col-6 col-sm-4 col-lg-2">
+                  <div class="skills-card">
+                     <div class="skills-img"><img src="images/skill/delphi.png" alt="Delphi"></div>
+                     <div class="skills-name">
+                        <p>Delphi</p>
+                     </div>
+                  </div>
+               </div>
+			   <div class="col-6 col-sm-4 col-lg-2">
+                  <div class="skills-card">
+                     <div class="skills-img"><img src="images/skill/github.png" alt="github"></div>
+                     <div class="skills-name">
+                        <p>github</p>
+                     </div>
+                  </div>
+               </div>
+			   <div class="col-6 col-sm-4 col-lg-2">
+                  <div class="skills-card">
+                     <div class="skills-img"><img src="images/skill/dyna.png" alt="Dynatrace"></div>
+                     <div class="skills-name">
+                        <p>Dynatrace</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-6 col-sm-4 col-lg-2">
+                  <div class="skills-card">
+                     <div class="skills-img"><img src="images/skill/vscode.png" alt="vscode"></div>
+                     <div class="skills-name">
+                        <p>vscode</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-6 col-sm-4 col-lg-2">
+                  <div class="skills-card">
+                     <div class="skills-img"><img src="images/skill/html.png" alt="html"></div>
+                     <div class="skills-name">
+                        <p>html</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-6 col-sm-4 col-lg-2">
+                  <div class="skills-card">
+                     <div class="skills-img"><img src="images/skill/css.png" alt="css"></div>
+                     <div class="skills-name">
+                        <p>css</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-6 col-sm-4 col-lg-2">
+                  <div class="skills-card">
+                     <div class="skills-img"><img src="images/skill/javascript.png" alt="javascript"></div>
+                     <div class="skills-name">
+                        <p>javascript</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-6 col-sm-4 col-lg-2">
+                  <div class="skills-card">
+                     <div class="skills-img"><img src="images/skill/bootstrap.png" alt="bootstrap"></div>
+                     <div class="skills-name">
+                        <p>bootstrap</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-6 col-sm-4 col-lg-2">
+                  <div class="skills-card">
+                     <div class="skills-img"><img src="images/skill/jquery.png" alt="jquery"></div>
+                     <div class="skills-name">
+                        <p>jquery</p>
+                     </div>
+                  </div>
+               </div>
+               
+               
+            </div>
+         </div>
+      </section>
+      <section class="discuss-part">
+         <div class="container">
+            <div class="discuss-oly">
+               <div class="row discuss-bg">
+                  <div class="col-md-7 col-lg-8">
+                     <div class="discuss-content">
+                        <h3>Vamos discutir a sua idéia?</h3>
+                        <p></p>
+                     </div>
+                  </div>
+                  <div class="col-md-5 col-lg-4">
+                     <div class="discuss-btn"><a class="btn btn-inline" target="_blank" href="https://wa.me/5579999234545"><i class="fas fa-paper-plane"></i><span>Entre em contato</span></a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="counter-part">
+         <div class="counter-bg">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-4 col-lg-4">
+                     <div class="counter-card count-1">
+                        <i class="flaticon-project-management"></i>
+                        <div class="counter-info">
+                           <h3><span class="counter-number">20</span>+</h3>
+                           <p>Projetos completo</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-lg-4">
+                     <div class="counter-card count-2">
+                        <i class="flaticon-handshake"></i>
+                        <div class="counter-info">
+                           <h3><span class="counter-number">10</span>+</h3>
+                           <p>Clientes Satisfeitos</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-lg-4">
+                     <div class="counter-card count-3">
+                        <i class="flaticon-hand-gesture"></i>
+                        <div class="counter-info">
+                           <h3><span class="counter-number">98</span>%</h3>
+                           <p>Feedback Positivo</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      
+      
+            
+      <section id="contact-part" class="section contact-part">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="section-heading">
+                     <p>Meu <span>contato</span></p>
+                     <h2>Estou a disposição para tirar sua idéia do papel</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row mb-5">
+               <div class="col-md-4 col-lg-4">
+                  <div class="contact-address">
+                     <div class="address-icon"><i class="fas fa-phone"></i></div>
+                     <div class="address-text">
+                        <h4>Telefone</h4>
+                        <p>(79) 99923-4545 <span></span></p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 col-lg-4">
+                  <div class="contact-address">
+                     <div class="address-icon"><i class="fas fa-envelope"></i></div>
+                     <div class="address-text">
+                        <h4>Email</h4>
+                        <p>thiago.darley@gmail.com <span></span></p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 col-lg-4">
+                  <div class="contact-address">
+                     <div class="address-icon"><i class="fas fa-map-marker-alt"></i></div>
+                     <div class="address-text">
+                        <h4>Localização</h4>
+                        <p>Rua João Gêniton da Costa <span>Brasil, Aracaju/SE</span></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6 col-lg-7">
+                  <form>
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <div class="form-group"><input type="text" class="form-control" placeholder="Nome"></div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="form-group"><input type="email" class="form-control" placeholder="Email"></div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="form-group"><input type="text" class="form-control" placeholder="Assunto"></div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="form-group"><input type="file" class="form-control"></div>
+                        </div>
+                        <div class="col-lg-12">
+                           <div class="form-group"><textarea class="form-control" placeholder="Mensagem"></textarea></div>
+                        </div>
+                        <div class="col-lg-12">
+                           <div class="form-btn"><button class="btn btn-inline" type="submit"><i class="fas fa-paper-plane"></i><span>Enviar</span></button></div>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+               <div class="col-md-6 col-lg-5">
+                  <div class="contact-img"><img src="images/banner/contact.png" alt="contact"></div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="section footer-part">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="footer-logo"><a href="#"><img src="images/logo.png" alt="logo"></a></div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12">
+                  <ul class="footer-icon">
+						<li><a class="icon icon-inline" target="_blank" href="https://www.facebook.com/ThiiagoSantana/"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a class="icon icon-inline" target="_blank" href="https://www.linkedin.com/in/thiagodarlei/"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a class="icon icon-inline" target="_blank" href="https://instagram.com/thdsantana"><i class="fab fa-instagram"></i></a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12">
+                  <ul class="footer-text">
+                     <li>
+                        <h6>&copy; Copyright - <span>2021</span></h6>
+                     </li>
+                     <li>
+                        <h6>All rights reserved by - Thiago Darlei</h6>
+                     </li>
+                     <li>
+                        <h6>Developed by - Thiago Darlei</h6>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+	  <script src="js/vendor/jquery-1.12.4.min.js"></script><script src="js/vendor/popper.min.js"></script><script src="js/vendor/bootstrap.min.js"></script><script src="js/vendor/slick.min.js"></script><script src="js/custom/slick.js"></script><script src="js/vendor/counterup.min.js"></script><script src="js/vendor/waypoints.min.js"></script><script src="js/custom/counterup.js"></script><script src="js/custom/main.js"></script>
+   </body>
+  
+      
+</html>
